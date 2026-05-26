@@ -73,6 +73,37 @@ This skill is grounded in:
    Petersen et al. 2019 (MPAS-Ocean, JAMES), Turner et al. 2022
    (MPAS-Seaice, GMD).
 
+## Acknowledgments
+
+**Gold-standard references for E3SM** (use these to cross-check anything in this skill):
+- E3SM documentation portal: https://docs.e3sm.org
+- E3SM-Project/E3SM repository: https://github.com/E3SM-Project/E3SM (see `AGENTS.md`, `CONTRIBUTING.md`, in-tree `docs/`)
+- E3SMv1 description: Golaz et al. 2019, JAMES
+- E3SMv2 description: Golaz et al. 2022, JAMES
+- SCREAM description: Caldwell et al. 2021, JAMES
+
+This skill exists only because of the work of other people, and any value it
+has is borrowed from theirs.
+
+- The **E3SM Project** and the **U.S. Department of Energy** for funding and
+  maintaining [E3SM-Project/E3SM](https://github.com/E3SM-Project/E3SM), the
+  CIME case control system, the MkDocs documentation at
+  https://docs.e3sm.org, and the in-tree `AGENTS.md` /  `CONTRIBUTING.md`
+  guidance that this skill mirrors.
+- **Golaz et al. (2019, 2022)** for the E3SM v1 and v2 description papers,
+  **Caldwell et al. (2021)** for SCREAM, **Petersen et al. (2019)** for
+  MPAS-Ocean, and **Turner et al. (2022)** for MPAS-Seaice. These anchor the
+  physics and component descriptions throughout the skill.
+- The **CIME developers** at NCAR and DOE labs for the case-control
+  abstractions this skill teaches users to drive.
+- **Zesen Huang** for [laps-skill](https://github.com/huangzesen/laps-skill),
+  the progressive-disclosure layout this repo borrows.
+- Sibling skills `cam-skill`, `ctsm-skill`, and `mom6-skill` for shared
+  structure and cross-references on the components E3SM uses.
+
+Any errors, oversimplifications, or out-of-date claims in this skill are the
+skill author's responsibility, not the upstream community's.
+
 ## Install
 
 This skill follows the same layout as
